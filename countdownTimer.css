@@ -1,0 +1,113 @@
+/*
+    The Countdown Package is a set of widgets for a user-configurable JavaScript Timer
+    Copyright (C) 2011  Samuel B. Johnson
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+div.timerContents {
+/* Generic class for all divs that are direct children of the div that holds the timer itself */
+    float: left;
+    clear: both;
+
+/* for debugging... */
+    margin: 5px;
+    border: 1px dotted #1A1A86;
+}
+
+div.timerContainer {
+    float: left;
+    clear: both;
+    margin: 5px;
+    border: 1px dotted #1A1A86;
+    padding: 5px;
+}
+
+div.timerLabelDiv {
+    padding: 5px;
+}
+
+div.timerDiv {
+    padding: 5px;
+}
+
+div.timerTargetDateContainer {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 1px dotted #1A1A86;
+}
+
+div.timerTargetDateLabel {
+    padding-bottom: 5px;
+}
+
+div.timerTargetDateForm {
+
+}
+
+div.timerTargetDateDate {
+    padding-top: 5px;
+    text-align: center;
+}
+
+div.timeUnitContainer {
+    background-color: #22077B;
+    color: #FAEBB1;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
+
+div.timeUnitAvatar {
+    background-color: #22077B;
+    width: 40px;
+    height: 40px;
+}
+
+div.timerButton {
+    background-color: #81F8C6;
+    padding: 5px;
+}
+
+div.timeUnitQuantity {
+    font-size: 2em;
+    text-align: center;
+}
+
+div.timePaletteContainer {
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    clear: both;
+    width: 500px;
+    border: 1px dotted #1A1A86;
+}
+
+div.timePaletteLabel {
+    padding: 5px;
+    font-size: 2em;
+}
+
+div.timerTrashCan {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 2em;
+    background-color: #BBBBBB;
+    height: 75px;
+    width: 55px;
+    float: left;
+    clear: both;
+}
